@@ -5,7 +5,4 @@ class List < ApplicationRecord
   validates :body, presence: true
   validates :image, presence: true
 
-   # コメントアウトする
-  # validates :image, presence: true
-
 end
